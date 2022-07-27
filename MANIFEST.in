@@ -1,3 +1,3 @@
 include README.rst
 include COPYING.rst
-recursive-include src/django_crystal_small/static *.*
+recursive-include src/crystal_small/static *.*

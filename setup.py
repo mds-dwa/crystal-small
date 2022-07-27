@@ -23,15 +23,15 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as ld_file:
     long_description = ld_file.read()
 
 setup (
-    name = 'django-crystal-small',
-    version = '2011.10.20',
+    name = 'crystal-small',
+    version = '2022.07.27',
     author = 'Everaldo Coehlo, Lukasz Langa',
     author_email = 'contact@everaldo.com, lukasz@langa.pl',
     description = "Everaldo's Crystal icons (small sizes) bundled for direct "
-                  "consumption from Django applications",
+                  "consumption from applications",
     long_description = long_description,
     url = 'http://www.everaldo.com/crystal/',
-    keywords = 'django small crystal icons everaldo lgpl static',
+    keywords = 'small crystal icons everaldo lgpl static',
     platforms = ['any'],
     license = 'LGPL',
     packages = find_packages('src'),
@@ -40,12 +40,10 @@ setup (
     zip_safe = False, # because executing support extensions for settings.py
                       # requires actual files
     install_requires = [
-        'django>=1.2',
         ],
 
     classifiers = [
         'Development Status :: 6 - Mature',
-        'Framework :: Django',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)',
         'Natural Language :: English',
