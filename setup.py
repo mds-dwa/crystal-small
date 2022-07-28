@@ -24,7 +24,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as ld_file:
 
 setup (
     name = 'crystal-small',
-    version = '2022.07.27',
+    version = '2022.07.28',
     author = 'Everaldo Coehlo, Lukasz Langa',
     author_email = 'contact@everaldo.com, lukasz@langa.pl',
     description = "Everaldo's Crystal icons (small sizes) bundled for direct "
